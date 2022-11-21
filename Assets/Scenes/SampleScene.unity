@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 400189751}
   - component: {fileID: 400189750}
   - component: {fileID: 400189749}
+  - component: {fileID: 400189753}
   m_Layer: 0
   m_Name: EXERCISE_04
   m_TagString: Untagged
@@ -220,6 +221,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &400189753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400189748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d918fa2518388de4288c50b1f8eb122f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &594683048
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +245,7 @@ GameObject:
   - component: {fileID: 594683051}
   - component: {fileID: 594683050}
   - component: {fileID: 594683049}
+  - component: {fileID: 594683053}
   m_Layer: 0
   m_Name: EXERCISE_03
   m_TagString: Untagged
@@ -317,6 +331,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &594683053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594683048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7befbe709609b284e8b499a22bca4971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +630,7 @@ GameObject:
   - component: {fileID: 1461493406}
   - component: {fileID: 1461493405}
   - component: {fileID: 1461493404}
+  - component: {fileID: 1461493408}
   m_Layer: 0
   m_Name: EXERCISE_05
   m_TagString: Untagged
@@ -689,6 +716,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461493408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461493403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a49e3222003d18488e0e2c396c4c8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1667497931
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +740,7 @@ GameObject:
   - component: {fileID: 1667497934}
   - component: {fileID: 1667497933}
   - component: {fileID: 1667497932}
+  - component: {fileID: 1667497936}
   m_Layer: 0
   m_Name: EXERCISE_01
   m_TagString: Untagged
@@ -786,3 +826,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667497936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667497931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588e1b644def8a043ac4f97c8e9ea514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letter: a

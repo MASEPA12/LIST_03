@@ -6,25 +6,28 @@ public class ONE : MonoBehaviour
 {
     public string letter;
 
-    void Start()
+    private void Start()
     {
-        if(isVowel = true)
+        if(IsVowel(letter) == true)
         {
-            Debug.Log
+            Debug.Log($"The letter {letter} is a vowel");
+        }
+        else
+        {
+            Debug.Log($"The letter {letter} is not a vowel");
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    //function;
+    private bool IsVowel(string L)
     {
-        
-    }
-
-    private bool isVowel()
-    {
-        if(letter == a || letter == e || letter == i || letter == o || letter == u)
+        if(L == "a" || L == "e" || L == "i" || L == "o"|| L == "u")
         {
-            isVowel = true
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }
