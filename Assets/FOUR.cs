@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class FOUR : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector3 Movement;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start()
+    {   //calling the funciton
+        Vector(Movement);
+    }
+    private void Vector(Vector3 R)
+    {   //convert the position of the Game Object to R
+        transform.Translate(R);
     }
 }
