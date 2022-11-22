@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class TEN : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Update()
+    {   //if we click the space it calls the function getBigger
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            getBigger();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void getBigger()
+    {   //+ (1,1,1) to the scale of the Game Object 
+        transform.localScale += Vector3.one; 
     }
+
 }
+        
+    
